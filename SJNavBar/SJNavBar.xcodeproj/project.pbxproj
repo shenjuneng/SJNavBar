@@ -16,6 +16,13 @@
 		9F7E15BA24EE24E2008DC681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15B924EE24E2008DC681 /* main.m */; };
 		9F7E15C424EE24E2008DC681 /* SJNavBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15C324EE24E2008DC681 /* SJNavBarTests.m */; };
 		9F7E15CF24EE24E2008DC681 /* SJNavBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15CE24EE24E2008DC681 /* SJNavBarUITests.m */; };
+		9F7E15E824EE4A30008DC681 /* UIView+SJLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15DE24EE4A2E008DC681 /* UIView+SJLayout.m */; };
+		9F7E15E924EE4A30008DC681 /* SJNavConfigSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15E224EE4A2F008DC681 /* SJNavConfigSingle.m */; };
+		9F7E15EA24EE4A30008DC681 /* SJWhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E15E324EE4A2F008DC681 /* SJWhite@3x.png */; };
+		9F7E15EB24EE4A30008DC681 /* SJBlack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E15E424EE4A2F008DC681 /* SJBlack@3x.png */; };
+		9F7E15EC24EE4A30008DC681 /* SJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15E524EE4A2F008DC681 /* SJBaseViewController.m */; };
+		9F7E15ED24EE4A30008DC681 /* SJNavConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15E724EE4A2F008DC681 /* SJNavConfig.m */; };
+		9F7E15F024EE4B73008DC681 /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E15EF24EE4B73008DC681 /* TwoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,18 @@
 		9F7E15CE24EE24E2008DC681 /* SJNavBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNavBarUITests.m; sourceTree = "<group>"; };
 		9F7E15D024EE24E2008DC681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7E15DD24EE2512008DC681 /* SJNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNavBar.h; sourceTree = "<group>"; };
+		9F7E15DE24EE4A2E008DC681 /* UIView+SJLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJLayout.m"; sourceTree = "<group>"; };
+		9F7E15DF24EE4A2E008DC681 /* SJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseViewController.h; sourceTree = "<group>"; };
+		9F7E15E024EE4A2F008DC681 /* SJNavConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNavConfig.h; sourceTree = "<group>"; };
+		9F7E15E124EE4A2F008DC681 /* SJNavConfigSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNavConfigSingle.h; sourceTree = "<group>"; };
+		9F7E15E224EE4A2F008DC681 /* SJNavConfigSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNavConfigSingle.m; sourceTree = "<group>"; };
+		9F7E15E324EE4A2F008DC681 /* SJWhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SJWhite@3x.png"; sourceTree = "<group>"; };
+		9F7E15E424EE4A2F008DC681 /* SJBlack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SJBlack@3x.png"; sourceTree = "<group>"; };
+		9F7E15E524EE4A2F008DC681 /* SJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseViewController.m; sourceTree = "<group>"; };
+		9F7E15E624EE4A2F008DC681 /* UIView+SJLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SJLayout.h"; sourceTree = "<group>"; };
+		9F7E15E724EE4A2F008DC681 /* SJNavConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNavConfig.m; sourceTree = "<group>"; };
+		9F7E15EE24EE4B73008DC681 /* TwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
+		9F7E15EF24EE4B73008DC681 /* TwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +131,8 @@
 				9F7E15AB24EE24DF008DC681 /* SceneDelegate.m */,
 				9F7E15AD24EE24DF008DC681 /* ViewController.h */,
 				9F7E15AE24EE24DF008DC681 /* ViewController.m */,
+				9F7E15EE24EE4B73008DC681 /* TwoVC.h */,
+				9F7E15EF24EE4B73008DC681 /* TwoVC.m */,
 				9F7E15B024EE24DF008DC681 /* Main.storyboard */,
 				9F7E15B324EE24E2008DC681 /* Assets.xcassets */,
 				9F7E15B524EE24E2008DC681 /* LaunchScreen.storyboard */,
@@ -143,6 +164,16 @@
 			isa = PBXGroup;
 			children = (
 				9F7E15DD24EE2512008DC681 /* SJNavBar.h */,
+				9F7E15E324EE4A2F008DC681 /* SJWhite@3x.png */,
+				9F7E15E424EE4A2F008DC681 /* SJBlack@3x.png */,
+				9F7E15DF24EE4A2E008DC681 /* SJBaseViewController.h */,
+				9F7E15E524EE4A2F008DC681 /* SJBaseViewController.m */,
+				9F7E15E024EE4A2F008DC681 /* SJNavConfig.h */,
+				9F7E15E724EE4A2F008DC681 /* SJNavConfig.m */,
+				9F7E15E124EE4A2F008DC681 /* SJNavConfigSingle.h */,
+				9F7E15E224EE4A2F008DC681 /* SJNavConfigSingle.m */,
+				9F7E15E624EE4A2F008DC681 /* UIView+SJLayout.h */,
+				9F7E15DE24EE4A2E008DC681 /* UIView+SJLayout.m */,
 			);
 			path = SJNavBar;
 			sourceTree = "<group>";
@@ -252,6 +283,8 @@
 			files = (
 				9F7E15B724EE24E2008DC681 /* LaunchScreen.storyboard in Resources */,
 				9F7E15B424EE24E2008DC681 /* Assets.xcassets in Resources */,
+				9F7E15EB24EE4A30008DC681 /* SJBlack@3x.png in Resources */,
+				9F7E15EA24EE4A30008DC681 /* SJWhite@3x.png in Resources */,
 				9F7E15B224EE24DF008DC681 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,10 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7E15F024EE4B73008DC681 /* TwoVC.m in Sources */,
+				9F7E15ED24EE4A30008DC681 /* SJNavConfig.m in Sources */,
 				9F7E15AF24EE24DF008DC681 /* ViewController.m in Sources */,
+				9F7E15E824EE4A30008DC681 /* UIView+SJLayout.m in Sources */,
+				9F7E15E924EE4A30008DC681 /* SJNavConfigSingle.m in Sources */,
 				9F7E15A924EE24DF008DC681 /* AppDelegate.m in Sources */,
 				9F7E15BA24EE24E2008DC681 /* main.m in Sources */,
 				9F7E15AC24EE24DF008DC681 /* SceneDelegate.m in Sources */,
+				9F7E15EC24EE4A30008DC681 /* SJBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
