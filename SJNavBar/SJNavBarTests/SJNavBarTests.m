@@ -1,6 +1,6 @@
 //
-//  SJNavBarDemoTests.m
-//  SJNavBarDemoTests
+//  SJNavBarTests.m
+//  SJNavBarTests
 //
 //  Created by 沈骏 on 2020/8/20.
 //  Copyright © 2020 沈骏. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface SJNavBarDemoTests : XCTestCase
+@interface SJNavBarTests : XCTestCase
 
 @end
 
-@implementation SJNavBarDemoTests
+@implementation SJNavBarTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
