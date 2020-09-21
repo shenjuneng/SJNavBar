@@ -2,12 +2,10 @@
 //  AppDelegate.m
 //  SJNavBar
 //
-//  Created by 沈骏 on 2020/8/20.
-//  Copyright © 2020 沈骏. All rights reserved.
+//  Created by ShenJun on 2020/9/21.
 //
 
 #import "AppDelegate.h"
-#import "SJNavBar.h"
 
 @interface AppDelegate ()
 
@@ -18,13 +16,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    SJNavConfig *config = [[SJNavConfig alloc] init];
-    config.leftItemImg = @"SJWhite";
-    config.itemLeftSpace = 1;
-    config.itemRightSpace = 1;
-    config.naviBgColor = UIColor.redColor;
-    [SJNavConfigSingle shareConfig].config = config;
     return YES;
 }
 
