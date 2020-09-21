@@ -178,6 +178,16 @@
     }
     _hiddenNavigation = hiddenNavigation;
     self.naviView.hidden = hiddenNavigation;
+    
+    if (self.naviView.hidden == YES) {
+        if (@available(iOS 11, *)) {
+            self.additionalSafeAreaInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+        }
+    } else {
+        if (@available(iOS 11, *)) {
+            self.additionalSafeAreaInsets = UIEdgeInsetsMake(44, 0, 0, 0);
+        }
+    }
 }
 
 //导航栏底部线条隐藏
